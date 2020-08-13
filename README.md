@@ -1,6 +1,6 @@
 # shellcheck-reviewdog
 
-Shell lint with [Review Dog](https://github.com/reviewdog/reviewdog) inside
+Shell lint with [Review Dog](https://github.com/reviewdog/reviewdog) inside. For use with [CI templates](https://github.com/jobtome-labs/ci-templates/).
 
 Based on [`koalaman/shellcheck-alpine`](https://github.com/koalaman/shellcheck) image.
 
