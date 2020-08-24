@@ -1,7 +1,7 @@
 ARG SHELLCHECK_VERSION=v0.7.1
-ARG REVIEWDOG_VERSION=v0.9.17
-
 FROM koalaman/shellcheck-alpine:${SHELLCHECK_VERSION}
+
+ARG REVIEWDOG_VERSION=v0.9.17
 
 LABEL maintainer="Fabrizio Bellicano <bellicaf@tcd.ie>" \
     image="linuxbandit/shellcheck-reviewdog" \
